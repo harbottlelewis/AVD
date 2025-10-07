@@ -1,5 +1,5 @@
 # Define the URL of the certificate file in the GitHub repo
-$certUrl = "https://raw.githubusercontent.com/<username>/<repo>/main/<path-to-cert>/<certfile>.cer"
+$certUrl = "https://raw.githubusercontent.com/harbottlelewis/AVD/main/download/CatoNetworksTrustedRootCA.cer"
 
 # Define a temporary path to save the downloaded certificate
 $tempCertPath = "$env:TEMP\downloadedcert.cer"
