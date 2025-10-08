@@ -1,3 +1,7 @@
+######
+## Installs Cato root certificate
+######
+
 # Define the URL of the certificate file in the GitHub repo
 $certUrl = "https://raw.githubusercontent.com/harbottlelewis/AVD/main/download/CatoNetworksTrustedRootCA.cer"
 
@@ -14,3 +18,7 @@ Import-Certificate -FilePath $tempCertPath -CertStoreLocation "Cert:\LocalMachin
 Remove-Item $tempCertPath
 
 Write-Host "Certificate installed to Trusted Root Certification Authorities."
+
+#########
+## End ##
+#########
